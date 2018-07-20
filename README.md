@@ -35,7 +35,7 @@ enterprise:
   Support:
     - Wsparcie techniczne
   Admin:
-    - Administracja serwerami oraz infrastruktórą
+    - Administracja serwerami oraz infrastrukturą
   Design:
     - Projektowanie wyglądu oprogramowania
   Project Managment:
