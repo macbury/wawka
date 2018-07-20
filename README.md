@@ -4,6 +4,12 @@ Tool for generating documents for people in Warsaw.
 
 https://youtu.be/j1epEtB0lVo?t=1m59s
 
+## Instalation
+
+```
+gem install wawka
+```
+
 ## Configuration
 
 Prepare configuration:
@@ -21,16 +27,15 @@ In `~/.wawka.yaml` file, there is a `enterprise` where you can map Task Category
 ```YAML
 enterprise:
   Development:
-    - Rozwój oprogramowania
-    - Tworzenie rozwiązań z
+    - Rozwój wewnętrznych narzędzi oraz oprogramowania dla ...
   Code review:
-    - Sprawdzanie poprawności tworzonego kodu
+    - Audyt i sprawdzanie poprawności tworzonego kodu
   Meeting:
     - Planowanie architektury systemu
   Support:
-    - Pomoc z problemami innych osób
+    - Wsparcie techniczne
   Admin:
-    - Administracja serwerami.
+    - Administracja serwerami oraz infrastruktórą
   Design:
     - Projektowanie wyglądu oprogramowania
   Project Managment:

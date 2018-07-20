@@ -11,16 +11,15 @@ company_name: 'Company name with Surname and First Name'
 # Mapping between harvest task and more enterprise description used in xls.
 enterprise:
   Development:
-    - Rozwój oprogramowania
-    - Tworzenie rozwiązań z
+    - Rozwój wewnętrznych narzędzi oraz oprogramowania dla ...
   Code review:
-    - Sprawdzanie poprawności tworzonego kodu
+    - Audyt i sprawdzanie poprawności tworzonego kodu
   Meeting:
     - Planowanie architektury systemu
   Support:
-    - Pomoc z problemami innych osób
+    - Wsparcie techniczne
   Admin:
-    - Administracja serwerami.
+    - Administracja serwerami oraz infrastruktórą
   Design:
     - Projektowanie wyglądu oprogramowania
   Project Managment:

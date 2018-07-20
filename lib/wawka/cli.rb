@@ -2,7 +2,7 @@ require 'thor'
 module Wawka
   class Cli < Thor
     desc "harvest <output-file> <date>", "generate required excel evidence based on harvest data"
-    def harvest(output_file, date=Date.today, )
+    def harvest(output_file, date=Date.today)
       Transactions::GenerateEvidence.new(date).call do |resp|
         resp.success do |file|
           FileUtils.cp(file.path, output_file)
