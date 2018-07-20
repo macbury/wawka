@@ -1,0 +1,29 @@
+# Fetch personal access token from https://id.getharvest.com/developers`
+harvest:
+  token: ""
+  account_id: 1
+
+# Date of your agreement, that will be placed in xls
+agreement_date: 2017-11-12
+# Company name , that will be placed in xls
+company_name: 'Company name with Surname and First Name'
+
+# Mapping between harvest task and more enterprise description used in xls.
+enterprise:
+  Development:
+    - Rozwój oprogramowania
+    - Tworzenie rozwiązań z
+  Code review:
+    - Sprawdzanie poprawności tworzonego kodu
+  Meeting:
+    - Planowanie architektury systemu
+  Support:
+    - Pomoc z problemami innych osób
+  Admin:
+    - Administracja serwerami.
+  Design:
+    - Projektowanie wyglądu oprogramowania
+  Project Managment:
+    - Zarządzanie projektem
+  Research:
+    - Analiza narzędzi oraz rozwój oprogramowania
