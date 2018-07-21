@@ -8,6 +8,19 @@ agreement_date: 2017-11-12
 # Company name , that will be placed in xls
 company_name: 'Company name with Surname and First Name'
 
+infakt:
+  client_id:
+  gross_price:
+  tax_symbol: 23
+  name: 'Usługi doradcze związane z rozwojem oprogramowania'
+  payment_day: 3
+
+mail:
+  to: test@example.com
+  cw:
+    - test@example.com
+    - test@example.com
+
 # Mapping between harvest task and more enterprise description used in xls.
 enterprise:
   Development:

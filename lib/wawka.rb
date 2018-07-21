@@ -9,6 +9,7 @@ require 'httparty'
 require 'active_support/all'
 
 require 'wawka/harvest'
+require 'wawka/infakt'
 require 'wawka/container'
 require 'wawka/transactions/base'
 require 'wawka/transactions/operation'

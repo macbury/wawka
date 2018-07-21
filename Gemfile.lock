@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    wawka (0.1.0)
+    wawka (0.2.0)
       activesupport (~> 5.2)
       dry-transaction (~> 0.13)
       httparty (~> 0.16.2)
@@ -99,4 +99,4 @@ DEPENDENCIES
   wawka!
 
 BUNDLED WITH
-   1.16.1
+   1.16.2

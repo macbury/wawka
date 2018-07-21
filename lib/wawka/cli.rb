@@ -13,6 +13,26 @@ module Wawka
       end
     end
 
+    desc "clients", "list all infakt clients with their ids"
+    def clients
+      
+    end
+
+    desc "invoice <date>", "create invoice and download pdf"
+    def invoice(create)
+      
+    end
+
+    desc "ogarnij <date>", "create evidence, create invoice and send it using email"
+    def ogarnij(date)
+      
+    end
+
+    desc "mail", "send example mail"
+    def mail
+      
+    end
+
     desc "config", "copy example configuration file"
     def config
       raise "There is already: #{Wawka.config_path}" if Wawka.config_path.exist?
@@ -20,6 +40,7 @@ module Wawka
         Wawka.root.join('example/config.yml'),
         Wawka.config_path.to_s
       )
+      puts "Edit your configuration file under: #{Wawka.config_path}"
     end
   end
 end
