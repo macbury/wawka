@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/wawka.svg)](https://badge.fury.io/rb/wawka)
+
 # Wawka
 
 Tool for generating documents for people in Warsaw.
